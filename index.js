@@ -13,5 +13,8 @@ var katzDeli = [];
 function takeANumber(katzDeliLine, newPerson) {
   katzDeliLine = [...katzDeliLine, newPerson]
   var length = katzDeliLine.length
+  console.log(katzDeliLine)
   return "Welcome, " + newPerson + ". You are number " + length + " in line."
 }
+
+takeANumber(katzDeli, 'Ada')
