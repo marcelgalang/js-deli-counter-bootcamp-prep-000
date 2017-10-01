@@ -4,7 +4,7 @@ console.log(array)
 function addPerson(katzDeli, b) {
   katzDeli = [...katzDeli, b]
   console.log("Welcome, " + b + ". You are number " + (katzDeli.length) + " in line.")
-  console.log(a)
+  console.log(katzDeli)
 }
 
 addPerson(array, 'Fred')
