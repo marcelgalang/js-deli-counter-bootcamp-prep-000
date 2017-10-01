@@ -13,6 +13,6 @@ var katzDeli = [];
 function takeANumber(katzDeliLine, b) {
   katzDeliLine = [...katzDeliLine, b]
   var length = katzDeliLine.length
-  console.log(katzDeliLine)
+  return katzDeliLine
   return "Welcome, " + b + ". You are number " + length + " in line."
 }
