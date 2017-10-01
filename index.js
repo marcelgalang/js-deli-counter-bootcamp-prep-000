@@ -1,6 +1,10 @@
 
 var array = ['Joe']
 console.log(array)
+function addPerson(a, b) {
+  a = [...a, b]
+  console.log(a)
+}
 
 
 var katzDeli = [];
