@@ -6,6 +6,7 @@ function addPerson(a, b) {
   console.log(a)
 }
 
+addPerson(array, 'Fred')
 
 var katzDeli = [];
 function takeANumber(katzDeliLine, newPerson) {
