@@ -12,5 +12,6 @@ addPerson(array, 'Fred')
 var katzDeli = [];
 function takeANumber(a, b) {
   a = [...a, b]
-  return "Welcome, " + b + ". You are number " + (a.length) + " in line."
+  var length = a.length
+  return "Welcome, " + b + ". You are number " + length + " in line."
 }
