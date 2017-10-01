@@ -10,9 +10,9 @@ function addPerson(katzDeli, b) {
 addPerson(array, 'Fred')
 
 var katzDeli = [];
-function takeANumber(katzDeli, b) {
-  katzDeli = [...katzDeli, b]
-  var length = katzDeli.length
-  console.log(katzDeli)
+function takeANumber(katzDeliLine, b) {
+  katzDeliLine = [...katzDeliLine, b]
+  var length = katzDeliLine.length
+  console.log(katzDeliLine)
   return "Welcome, " + b + ". You are number " + length + " in line."
 }
