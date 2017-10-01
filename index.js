@@ -1,3 +1,8 @@
+
+var array = ['Joe']
+console.log(array)
+
+
 var katzDeli = [];
 function takeANumber(katzDeliLine, newPerson) {
   katzDeliLine = [...katzDeliLine, newPerson]
