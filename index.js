@@ -1,9 +1,9 @@
 
 var array = ['Joe']
 console.log(array)
-function addPerson(a, b) {
-  a = [...a, b]
-  console.log("Welcome, " + b + ". You are number " + (a.length) + " in line.")
+function addPerson(katzDeli, b) {
+  katzDeli = [...katzDeli, b]
+  console.log("Welcome, " + b + ". You are number " + (katzDeli.length) + " in line.")
   console.log(a)
 }
 
